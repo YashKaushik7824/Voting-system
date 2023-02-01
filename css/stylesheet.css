@@ -1,0 +1,64 @@
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 30px;
+    font-size: xx-large;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+footer{
+    font-size: xx-large;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+body{
+    background-color: grey;
+    
+}
+main div{
+    display: flex;
+    align-items: flex-start;
+    font-size: x-large;
+    width: 65%;
+    /* float: left; */
+}
+.right{
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    float: right;
+}
+.logo img{
+    display: flex;
+    width: 150px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+.headerSection{
+    padding: 5px;
+}
